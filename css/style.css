@@ -1,6 +1,6 @@
-div {
+/* div {
   border: solid black 1px;
-}
+} */
 
 h1 {
   font-family: "Gelasio", serif;
@@ -43,4 +43,70 @@ header {
   outline: none !important;
   border: 1px solid #df7126;
   color: #ffffff;
+}
+
+/* styles for mobile browsers smaller than 480px; (Mobile Phones) */
+@media only screen and (max-device-width: 480px) {
+  #title {
+    padding-top: 50px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Gelasio", serif;
+    font-size: 30px;
+  }
+
+  #demo {
+    margin-top: 15px;
+    width: 200px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 120%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #df7126;
+    border-radius: 25px;
+    outline: none !important;
+    border: 1px solid #df7126;
+    color: #ffffff;
+  }
+  #sports {
+    padding-top: 0px;
+    margin-right: 0;
+  }
+}
+
+/* default tablets screens */
+@media only screen and (device-width: 768px) {
+  #title {
+    padding-top: 150px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Gelasio", serif;
+    font-size: 30px;
+  }
+
+  #demo {
+    margin-top: 15px;
+    width: 200px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 120%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #df7126;
+    border-radius: 25px;
+    outline: none !important;
+    border: 1px solid #df7126;
+    color: #ffffff;
+  }
+  #sports {
+    padding-top: 0px;
+    margin-right: 0;
+  }
 }
