@@ -256,6 +256,85 @@ header {
   #sports-modal .modal-img {
     max-width: 385px;
   }
+
+  #data-modal .modal-img {
+    max-width: 385px;
+  }
+  #modal2 {
+    padding-top: 0px;
+  }
+
+  #collaboration {
+    height: auto;
+    width: 385px;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 14px 30px -10px rgba(31, 31, 31, 0.15);
+    margin-top: 100px;
+  }
+
+  #collaboration h3 {
+    font-size: 15px;
+    line-height: 45px;
+    text-align: center;
+    color: #52a36b;
+    padding-top: 35px;
+  }
+
+  #collaboration .img-fluid {
+    margin: auto;
+    display: block;
+  }
+
+  #collaboration button {
+    width: 175px;
+    height: auto;
+    background: #df7126;
+    border-radius: 125px;
+    margin: auto;
+    display: block;
+    margin-top: 26px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    color: white;
+    border: 1px solid #df7126;
+  }
+  .grid4 {
+    padding-top: 100px;
+    padding-right: 0px;
+  }
+
+  .grid4 p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    padding-right: 0px;
+  }
+
+  .block4 {
+    margin-top: 50px;
+    padding-right: 0px;
+  }
+
+  .block4 p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    padding-right: 0px;
+  }
+
+  .block4 h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+  }
 }
 
 /* default tablets screens */
@@ -409,5 +488,8 @@ header {
 
   .grid4 {
     padding-top: 100px;
+  }
+  .grid4 h2 {
+    font-size: 30px;
   }
 }
