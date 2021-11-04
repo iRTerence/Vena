@@ -1,8 +1,8 @@
-/* div {
+div {
   border: solid black 1px;
-} */
+}
 
-p {
+h1 {
   font-family: "Gelasio", serif;
   font-size: 67.03px;
 }
@@ -13,7 +13,6 @@ body {
 }
 
 header {
-  /* position: absolute; */
   height: 56px;
   left: 0px;
   top: 0px;
@@ -21,17 +20,27 @@ header {
   margin-top: 0;
 }
 
-/* For tablets and larger */
-@media (min-width: 1140px) {
-  #title {
-    margin-top: 305px;
-    width: 728px;
-    height: 232px;
-    margin-left: 161px;
-  }
+#title {
+  padding-top: 305px;
+  padding-left: 161px;
+}
 
-  #sports {
-    margin-top: 128px;
-    margin-right: 76.82px;
-  }
+#sports {
+  margin-top: 128px;
+  margin-right: 76.82px;
+}
+
+#demo {
+  margin-top: 15px;
+  width: 310px;
+  font-family: "Open Sans";
+  font-size: 28.833px;
+  line-height: 120%;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: #df7126;
+  border-radius: 25px;
+  outline: none !important;
+  border: 1px solid #df7126;
+  color: #ffffff;
 }
