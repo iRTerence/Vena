@@ -2,11 +2,6 @@
   border: solid black 1px;
 } */
 
-h1 {
-  font-family: "Gelasio", serif;
-  font-size: 67.03px;
-}
-
 body {
   margin: 0px;
   padding: 0px;
@@ -25,9 +20,25 @@ header {
   padding-left: 161px;
 }
 
+/* Images */
 #sports {
   margin-top: 128px;
   margin-right: 76.82px;
+}
+
+#modal1 {
+  padding-top: 100px;
+}
+
+.modal-body {
+  height: 530px;
+  width: 1036px;
+  padding: 0rem;
+  margin-right: 3em;
+}
+
+#sports-modal .modal-img {
+  max-width: 100%;
 }
 
 #demo {
@@ -43,6 +54,27 @@ header {
   outline: none !important;
   border: 1px solid #df7126;
   color: #ffffff;
+}
+
+/* Headers */
+.streamline {
+  padding-right: 225px;
+  padding-top: 130.24px;
+}
+
+.streamline p {
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+
+h1 {
+  font-family: "Gelasio", serif;
+  font-size: 67.03px;
+}
+
+h2 {
+  font-family: "Gelasio", serif;
+  font-size: 40px;
 }
 
 /* styles for mobile browsers smaller than 480px; (Mobile Phones) */
@@ -82,6 +114,39 @@ header {
 @media only screen and (device-width: 768px) {
   #title {
     padding-top: 150px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Gelasio", serif;
+    font-size: 30px;
+  }
+
+  #demo {
+    margin-top: 15px;
+    width: 200px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 120%;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #df7126;
+    border-radius: 25px;
+    outline: none !important;
+    border: 1px solid #df7126;
+    color: #ffffff;
+  }
+  #sports {
+    padding-top: 0px;
+    margin-right: 0;
+  }
+}
+
+/* default ipad pro screens */
+@media only screen and (max-device-width: 1024px) {
+  #title {
+    padding-top: 200px;
     padding-left: 0px;
     text-align: center;
   }
