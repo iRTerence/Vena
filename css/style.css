@@ -22,6 +22,8 @@ footer {
   width: 310px;
   font-family: "Open Sans";
   font-size: 28.833px;
+  font-weight: 700;
+
   line-height: 120%;
   padding-top: 23px;
   padding-bottom: 23px;
@@ -219,6 +221,38 @@ header {
   line-height: 120%;
 }
 
+/* GRID 5 */
+
+.cards {
+  margin-left: 161px;
+  margin-right: 161px;
+  margin-top: 200px;
+}
+
+.icon .img-fluid {
+  margin: auto;
+  display: block;
+}
+
+.icon h2 {
+  text-align: center;
+  margin-top: 35px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.icon p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+}
+
 /* styles for mobile browsers smaller than 480px; (Mobile Phones) */
 @media only screen and (max-device-width: 480px) {
   #title {
@@ -235,14 +269,14 @@ header {
   #demo {
     margin-top: 15px;
     width: 200px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
     font-size: 17px;
     line-height: 120%;
     padding-top: 23px;
     padding-bottom: 23px;
     background-color: #df7126;
-    border-radius: 25px;
-    outline: none !important;
+    border-radius: 125px;
     border: 1px solid #df7126;
     color: #ffffff;
   }
@@ -334,6 +368,36 @@ header {
     font-weight: bold;
     font-size: 24px;
     line-height: 120%;
+  }
+
+  .cards {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .icon .img-fluid {
+    margin: auto;
+    display: block;
+  }
+
+  .icon h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .icon p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
   }
 }
 
