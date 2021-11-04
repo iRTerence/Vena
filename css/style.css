@@ -144,6 +144,81 @@ header {
   line-height: 24px;
 }
 
+/* Grid 4 */
+#collaboration {
+  height: 732px;
+  width: 715px;
+  margin: auto;
+  display: block;
+  box-shadow: 0px 14px 30px -10px rgba(31, 31, 31, 0.15);
+  margin-top: 203px;
+}
+
+#collaboration h3 {
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #52a36b;
+  padding-top: 35px;
+}
+
+#collaboration .img-fluid {
+  margin: auto;
+  display: block;
+}
+
+#collaboration button {
+  width: 310px;
+  height: 81px;
+  background: #df7126;
+  border-radius: 125px;
+  margin: auto;
+  display: block;
+  margin-top: 26px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28.833px;
+  line-height: 120%;
+  color: white;
+  border: 1px solid #df7126;
+}
+
+.grid4 {
+  padding-top: 203px;
+  padding-right: 161px;
+}
+
+.grid4 p {
+  padding-right: 161px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+.block4 {
+  margin-top: 50px;
+  padding-right: 161px;
+}
+
+.block4 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.block4 h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+}
+
 /* styles for mobile browsers smaller than 480px; (Mobile Phones) */
 @media only screen and (max-device-width: 480px) {
   #title {
@@ -251,8 +326,6 @@ header {
     margin-right: 0;
   }
 
-  /* SVG List (GRID 2) */
-
   .block {
     margin-top: 50px;
   }
@@ -332,5 +405,9 @@ header {
     margin-bottom: 0px;
     font-weight: 400;
     line-height: 24px;
+  }
+
+  .grid4 {
+    padding-top: 100px;
   }
 }
