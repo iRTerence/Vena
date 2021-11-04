@@ -2,45 +2,13 @@
   border: solid black 1px;
 } */
 
+/* Base */
 body {
   margin: 0px;
   padding: 0px;
 }
 
-header {
-  height: 56px;
-  left: 0px;
-  top: 0px;
-  background-color: #c4c4c4;
-  margin-top: 0;
-}
-
-#title {
-  padding-top: 305px;
-  padding-left: 161px;
-}
-
-/* Images */
-#sports {
-  margin-top: 128px;
-  margin-right: 76.82px;
-}
-
-#modal1 {
-  padding-top: 100px;
-}
-
-.modal-body {
-  height: 530px;
-  width: 1036px;
-  padding: 0rem;
-  margin-right: 3em;
-}
-
-#sports-modal .modal-img {
-  max-width: 100%;
-}
-
+/* Buttons */
 #demo {
   margin-top: 15px;
   width: 310px;
@@ -56,6 +24,28 @@ header {
   color: #ffffff;
 }
 
+/* Images */
+#sports {
+  margin-top: 128px;
+  margin-right: 76.82px;
+}
+
+#modal1 {
+  padding-top: 100px;
+  padding-left: 122px;
+}
+
+.modal-body {
+  height: 530px;
+  width: 1036px;
+  padding: 0rem;
+  margin-right: 3em;
+}
+
+#sports-modal .modal-img {
+  max-width: 100%;
+}
+
 /* Headers */
 .streamline {
   padding-right: 225px;
@@ -65,6 +55,8 @@ header {
 .streamline p {
   font-family: "Open Sans";
   font-size: 22px;
+  margin-bottom: 0px;
+  line-height: 24px;
 }
 
 h1 {
@@ -75,6 +67,25 @@ h1 {
 h2 {
   font-family: "Gelasio", serif;
   font-size: 40px;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header {
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  background-color: #c4c4c4;
+  margin-top: 0;
+}
+
+#title {
+  padding-top: 305px;
+  padding-left: 161px;
 }
 
 /* styles for mobile browsers smaller than 480px; (Mobile Phones) */
@@ -174,4 +185,23 @@ h2 {
     padding-top: 0px;
     margin-right: 0;
   }
+}
+
+/* SVG List (blocks) */
+
+.block {
+  margin-top: 50px;
+}
+
+.block p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding-right: 140px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.block-img {
+  padding-right: 0px;
 }
