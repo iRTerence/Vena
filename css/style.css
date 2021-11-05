@@ -58,7 +58,9 @@ footer {
 }
 
 #sports-modal .modal-img {
+  height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
 /* Section 2 */
