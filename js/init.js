@@ -18,3 +18,5 @@ document.addEventListener("click", function (e) {
     myModal.show();
   }
 });
+
+$(".carousel").carousel();
