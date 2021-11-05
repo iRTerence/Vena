@@ -251,6 +251,49 @@ header {
   font-size: 30px;
   line-height: 150%;
   text-align: center;
+  color: #2d2a26;
+}
+
+/* GRID 6 */
+
+#intergration {
+  margin-left: 94px;
+  margin-top: 218px;
+}
+
+.grid6 {
+  padding-top: 203px;
+  padding-right: 100px;
+}
+
+.grid6 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+.block6 {
+  margin-top: 50px;
+}
+
+.block6 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.block6 h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 15px;
 }
 
 /* styles for mobile browsers smaller than 480px; (Mobile Phones) */
@@ -398,6 +441,40 @@ header {
     font-size: 15px;
     line-height: 150%;
     text-align: center;
+  }
+
+  .grid6 {
+    padding-top: 100px;
+    padding-right: 0px;
+  }
+
+  .grid6 p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    padding-right: 0px;
+  }
+
+  .block6 {
+    margin-top: 50px;
+    padding-right: 0px;
+  }
+
+  .block6 p {
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 24px;
+    padding-right: 0px;
+  }
+
+  .block6 h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
   }
 }
 
