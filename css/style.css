@@ -1,12 +1,13 @@
-div {
-  border: solid black 1px;
-}
-
 /* Base */
 body {
   margin: 0px;
   padding: 0px;
-  /* background-color: #e5e5e5; */
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+div.disabled {
+  overflow-x: hidden;
 }
 
 footer {
@@ -319,10 +320,11 @@ header {
 }
 
 .section7 {
-  height: 1032px;
+  height: 1200px;
   width: auto;
   background: #ffffff;
   box-shadow: 0px 12px 60px -20px rgba(31, 31, 31, 0.2);
+  margin-bottom: 100px;
 }
 
 .template {
@@ -420,7 +422,7 @@ ul li {
 }
 
 .block8 {
-  margin: auto;
+  /* margin: auto; */
   text-align: center;
   margin-top: 196px;
   margin-bottom: 200px;
@@ -696,6 +698,16 @@ ul li {
     height: 50px;
     font-size: 20px;
   }
+  /* Section 8 */
+  .grid8 {
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+
+  .skills {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 /* styles for tablet browsers*/
@@ -766,6 +778,19 @@ ul li {
     margin-left: 125px;
     padding-top: 50px;
     /* text-align: center; */
+  }
+
+  .grid8 {
+    margin-top: 500px;
+  }
+
+  .grid8 h2 {
+    padding-top: 5px;
+    margin-bottom: 15px;
+  }
+  .block8 {
+    margin-bottom: 25px;
+    margin-top: 50px;
   }
 }
 
@@ -915,5 +940,20 @@ ul li {
   #try-btn {
     margin-left: 275px;
     padding-top: 50px;
+  }
+
+  /* Section 8 */
+  .grid8 {
+    margin-top: 500px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .grid8 h2 {
+    padding-top: 0px;
+  }
+
+  .block8 h2 {
+    font-size: 20;
   }
 }
