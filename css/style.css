@@ -1,6 +1,6 @@
-/* div {
+div {
   border: solid black 1px;
-} */
+}
 
 /* Base */
 body {
@@ -35,7 +35,7 @@ footer {
   color: #ffffff;
 }
 
-/* Images */
+/* Section 1 */
 #sports {
   margin-top: 128px;
   margin-right: 76.82px;
@@ -60,7 +60,7 @@ footer {
   max-width: 100%;
 }
 
-/* Headers */
+/* Section 2 */
 .grid2 {
   padding-right: 225px;
   padding-top: 130.24px;
@@ -101,8 +101,6 @@ header {
   padding-top: 305px;
   padding-left: 161px;
 }
-
-/* SVG List (GRID2) */
 
 .block {
   margin-top: 50px;
@@ -147,7 +145,7 @@ header {
   line-height: 24px;
 }
 
-/* Grid 4 */
+/* Section 4 */
 #collaboration {
   height: 732px;
   width: 715px;
@@ -222,7 +220,7 @@ header {
   line-height: 120%;
 }
 
-/* GRID 5 */
+/* Section 5 */
 
 .cards {
   margin-left: 161px;
@@ -400,6 +398,45 @@ ul li {
   border: 1px solid #df7126;
 }
 
+/* Section 8 */
+.grid8 {
+  margin-top: 200px;
+  margin-right: 140px;
+  margin-left: 155px;
+}
+
+.grid8 h2 {
+  padding-top: 35px;
+}
+
+.grid8 p {
+  font-family: Open Sans;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+#name {
+  font-weight: 700;
+}
+
+.block8 {
+  margin: auto;
+  text-align: center;
+  margin-top: 196px;
+  margin-bottom: 200px;
+}
+
+.block8 h2 {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.skills {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
 /* styles for mobile browsers  (Mobile Phones) */
 @media only screen and (max-device-width: 480px) {
   /* Section 1 */
@@ -420,7 +457,6 @@ ul li {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 17px;
-    line-height: 120%;
     padding-top: 23px;
     padding-bottom: 23px;
     background-color: #df7126;
@@ -512,7 +548,6 @@ ul li {
     display: block;
     margin-top: 26px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 120%;
@@ -697,6 +732,16 @@ ul li {
   .modal-dialog {
     margin: 0;
   }
+  /* Section 3 */
+  .grid3 {
+    padding-top: 100px;
+    padding-left: 0px;
+  }
+
+  .block3 {
+    padding-left: 0px;
+  }
+
   /* Section 7 */
   .slide {
     padding-left: 0px;
